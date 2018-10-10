@@ -75,7 +75,9 @@
                 <tr>
                     <td class="auto-style8" style="border-color:cadetblue;font-size:larger">
                         <asp:Button ID="Button1" runat="server" Text="ADD" Height="33px" Width="63px" OnClick="Button1_Click" /></td>
-                    <td class="auto-style5" style="font-size:large;color:green"><asp:Label ID="Label1" runat="server" ></asp:Label></td>
+                    <td class="auto-style5" style="font-size:large;color:green"><asp:Label ID="Label1" runat="server" ></asp:Label>
+                        <asp:Label ID="Label2" runat="server" ForeColor="#ff0000"></asp:Label>
+                    </td>
                 </tr>
             </table>
 
